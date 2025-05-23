@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>About Me - John Lester Olingay</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+             <a href="index.html" class="logo-link">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                    Olingay <span>John Lester</span>
+                </div>
+            </a>
+            <div class="links">
+                <div class="link"><a href="index.html">Home</a></div>
+                <div class="link"><a href="about.html" class="active">About</a></div>
+                <div class="link"><a href="skills.html">Skills</a></div>
+                <div class="link"><a href="services.html">Services</a></div>
+                <div class="link"><a href="portfolio.html">Portfolio</a></div>
+                <div class="link"><a href="contact.html">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-section about-section">
+        <div class="container">
+            <h2 class="page-title" data-aos="fade-down">About <span>Me</span></h2>
+            <div class="about-content" data-aos="fade-up">
+                <div class="about-image" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="blank_pfp.jpg" alt="John Lester Olingay">
+                </div>
+                <div class="about-text" data-aos="fade-left" data-aos-delay="400">
+                    <h3>Hello, I'm John Lester Olingay!</h3>
+                    <p>I am a passionate and dedicated student currently studying at PGPC. My primary goal is to leverage my growing knowledge and skills to contribute meaningfully to a dynamic organization. I am enthusiastic about learning new technologies and methodologies that can help solve real-world problems.</p>
+                    <p>I am particularly interested in  like web development and backend development. I believe in continuous improvement and am always seeking opportunities to expand my skillset and take on new challenges. My academic journey has equipped me with a solid foundation in [mention key areas of study], and I am eager to apply this knowledge in a professional setting.</p>
+                    <p>In my free time, I enjoy [mention a hobby or two, e.g., coding personal projects, reading tech blogs, participating in hackathons]. I am a proactive team player with strong communication skills, and I thrive in collaborative environments.</p>
+                    <a href="cv/your_cv.pdf" download class="btn-primary" data-aos="fade-up" data-aos-delay="600">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 John Lester Olingay. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:100});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

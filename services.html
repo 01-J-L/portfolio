@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>My Services - John Lester Olingay</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+             <a href="index.html" class="logo-link">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                    Olingay <span>John Lester</span>
+                </div>
+            </a>
+            <div class="links">
+                <div class="link"><a href="index.html">Home</a></div>
+                <div class="link"><a href="about.html">About</a></div>
+                <div class="link"><a href="skills.html">Skills</a></div>
+                <div class="link"><a href="services.html" class="active">Services</a></div>
+                <div class="link"><a href="portfolio.html">Portfolio</a></div>
+                <div class="link"><a href="contact.html">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-section services-section">
+        <div class="container">
+            <h2 class="page-title" data-aos="fade-down">Services I <span>Offer</span></h2>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-laptop-code service-icon"></i>
+                    <h3>Web Development</h3>
+                    <p>Creating responsive and functional websites using modern technologies like HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-pencil-ruler service-icon"></i>
+                    <h3>UI/UX Design Assistance</h3>
+                    <p>Focusing on user-friendly interfaces and engaging user experiences. Learning to design intuitive layouts.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-mobile-alt service-icon"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Ensuring websites look and perform great on all devices, from desktops to mobile phones.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-code-branch service-icon"></i>
+                    <h3>Frontend Development</h3>
+                    <p>Building the client-side of web applications that users interact with directly.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <i class="fas fa-bug service-icon"></i>
+                    <h3>Debugging & Testing</h3>
+                    <p>Assisting in identifying and fixing bugs, and learning testing methodologies for web applications.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <i class="fas fa-chalkboard-teacher service-icon"></i>
+                    <h3>Technical Consultation</h3>
+                    <p>Providing insights and advice on web-related projects based on my current knowledge and learning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 John Lester Olingay. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:100});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

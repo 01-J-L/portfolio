@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio - John Lester Olingay</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+             <a href="index.html" class="logo-link">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                    Olingay <span>John Lester</span>
+                </div>
+            </a>
+            <div class="links">
+                <div class="link"><a href="index.html">Home</a></div>
+                <div class="link"><a href="about.html">About</a></div>
+                <div class="link"><a href="skills.html">Skills</a></div>
+                <div class="link"><a href="services.html">Services</a></div>
+                <div class="link"><a href="portfolio.html" class="active">Portfolio</a></div>
+                <div class="link"><a href="contact.html">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-section portfolio-section">
+        <div class="container">
+            <h2 class="page-title" data-aos="fade-down">My <span>Portfolio</span></h2>
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://via.placeholder.com/400x300?text=Project+Alpha" alt="Project Admission System">
+                    <div class="project-info">
+                        <h3>Project Admission System</h3>
+                        <p>This system streamlines the student admission process by handling applications, eligibility checks, document submissions, and admission decisions. It helps educational institutions efficiently manage and track applicants from initial registration to final enrollment.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn-secondary">View Project</a>
+                            <a href="#" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://via.placeholder.com/400x300?text=Project+Beta" alt="Project Library System">
+                    <div class="project-info">
+                        <h3>Project Library System</h3>
+                        <p>A comprehensive system for managing a library’s catalog, borrowing/returning books, tracking due dates, and managing user accounts. It improves organization and user access to resources while reducing manual work for librarians.</p>
+                         <div class="project-links">
+                            <a href="#" target="_blank" class="btn-secondary">View Project</a>
+                            <a href="#" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://via.placeholder.com/400x300?text=Project+Gamma" alt="Project Enrollment System">
+                    <div class="project-info">
+                        <h3>Project Enrollment System</h3>
+                        <p>This system facilitates student course enrollment by allowing students to select subjects, view schedules, and register for classes. It helps institutions maintain accurate records of course registrations and student participation.</p>
+                         <div class="project-links">
+                            <a href="#" target="_blank" class="btn-secondary">View Project</a>
+                            <a href="#" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 John Lester Olingay. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:100});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
